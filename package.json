@@ -1,0 +1,39 @@
+{
+  "name": "solana-alert-bot-guide",
+  "version": "1.0.0",
+  "description": "A step-by-step guide to build a Solana Alert Bot with Helius, Vercel, and Discord.",
+  "main": "api/webhook.js",
+  "scripts": {
+    "test": "mocha --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opptylabs/helius-webhook.git"
+  },
+  "keywords": [
+    "solana",
+    "helius",
+    "webhook",
+    "discord",
+    "vercel",
+    "nft",
+    "sales bot",
+    "listing bot"
+  ],
+  "author": {
+    "name": "Oppty",
+    "url": "https://twitter.com/0xOppty"
+  },
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/opptylabs/helius-webhook/issues"
+  },
+  "homepage": "https://github.com/opptylabs/helius-webhook#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
